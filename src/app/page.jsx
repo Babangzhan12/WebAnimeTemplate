@@ -1,7 +1,7 @@
 
-import AnimeList from "@/components/AnimeList"
-import Header from "@/components/AnimeList/Header"
-import { getAnimeResponse, getNestedAnimeResponse, reproduce } from "@/libs/api-libs"
+import AnimeList from "../components/AnimeList"
+import Header from "../components/AnimeList/Header.jsx"
+import { getAnimeResponse, getNestedAnimeResponse, reproduce } from "../libs/api-libs.js"
 
 const Page = async () => {
   const topAnime = await getAnimeResponse("top/anime", "limit=8")
