@@ -1,5 +1,6 @@
 import { Gabarito } from "next/font/google";
 import Navbar from "../components/Navbar";
+import '../app/globals.css'
 
 const gabarito = Gabarito({
   subsets: ["latin"],
